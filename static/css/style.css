@@ -587,10 +587,6 @@ header .brand {
 header .brand img:first-child {
   float: left;
   margin: -10px 15px 0 0;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 0px 5px 3px rgba(69,69,69,1);
--moz-box-shadow: 0px 0px 5px 3px rgba(69,69,69,1);
-box-shadow: 0px 0px 5px 3px rgba(69,69,69,1);
 }
 section * {
   z-index: 2;
@@ -1187,4 +1183,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-antiflicker {
   opacity: 0;
   filter: alpha(opacity=0);
+}
+
+
+.btn {
+  background: orangered;
 }
