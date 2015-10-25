@@ -427,6 +427,12 @@ p {
   margin-top: 150px;
 }
 
+@media (max-width: 480px) {
+  #signup {
+    margin-top: 50px;
+  }
+}
+
 .page-wrapper {
   position: relative;
   z-index: 2;
