@@ -30,8 +30,8 @@
                 <div class="navbar-header">
                     <div class="social-btns">
                         <a href="#">
-                            <div class="fui-vimeo"></div>
-                            <div class="fui-vimeo"></div>
+                            <div class="fui-pinterest"></div>
+                            <div class="fui-pinterest"></div>
                         </a>
                         <a href="#">
                             <div class="fui-facebook"></div>
@@ -56,7 +56,7 @@
                 <br><br><br>
                 <br><br><br>
                 <h3>A stool so cool</h3>
-                <div class="row">
+                <div class="row msg-main">
                     <p class="lead col-sm-10 col-sm-offset-1">
                         We're not ready yet but please subscribe to our newsletter and get notified
                         when we launch our website.
@@ -67,13 +67,18 @@
         <div class="row" id="signup">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="signup-form">
-                    <form>
-                        <div class="clearfix">
-                            <input type="text" class="form-control" placeholder="Your Name">
-                            <input type="email" class="form-control" placeholder="Your E-mail">
-                            <button type="submit" class="btn btn-danger">Sign Up</button>
-                        </div>
-                    </form>
+                    <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://lavaludica.us12.list-manage.com/subscribe/post?u=eb2ba56bbd81f341bc5e13f75&amp;id=9c5e4404f9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+    <div class="clearfix">
+        <input type="text" value="" name="NAME" class="form-control required" id="mce-NAME" placeholder="Your name">
+        <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Your email">
+        <button type="submit" class="btn btn-danger button">Subscribe</button>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
                 </div>
             </div>
         </div>
@@ -93,6 +98,30 @@
             <script src="startup/common-files/js/jquery.backgroundvideo.min.js"></script>
             <script src="startup/common-files/js/froogaloop.min.js"></script>
             <script src="startup/common-files/js/startup-kit.js"></script>
+            <script type="text/javascript">
+            var getUrlParameter = function getUrlParameter(sParam) {
+                var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                    sURLVariables = sPageURL.split('&'), sParameterName, i;
+
+                for (i = 0; i < sURLVariables.length; i++) {
+                    sParameterName = sURLVariables[i].split('=');
+
+                    if (sParameterName[0] === sParam) {
+                        return sParameterName[1] === undefined ? true : sParameterName[1];
+                    }
+                }
+            };
+
+            $(document).ready(function(){
+                var subscribed = getUrlParameter('subscribed');
+                console.log(subscribed);
+                if(subscribed == 1){
+                    $("#signup").hide();
+                    $('h3').text('Thank you for subscribing!');
+                    $('.msg-main > p').text('A verification email has been sent to verify your email address');
+                }
+            });
+            </script>
         </div>
     </body>
 </html>

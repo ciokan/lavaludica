@@ -997,12 +997,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 
 .background-image {
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg.png') no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/bg.jpg') no-repeat;
   background-size: cover;
   position: fixed;
   left: 0;
