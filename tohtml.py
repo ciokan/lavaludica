@@ -25,11 +25,10 @@ for atype in e.findall('Record'):
 <div class="column">
 	<div class="ui fluid link card" data-cardid="{id}">
 		<div class="image">
-			<b class="ui orange ribbon label">{article_no}</b>
+			<b class="ui orange ribbon label">{name}</b>
 			<img src="{image}">
 		</div>
 		<div class="content">
-			<div class="header">{name}</div>
 			<div class="meta">
 				<a>{category}</a>
 			</div>
