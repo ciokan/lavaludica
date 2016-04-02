@@ -22,20 +22,8 @@ h1 {
 	font-family: 'Roboto', arial;
 }
 
-<<<<<<< HEAD
-.background-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/bg.jpg') no-repeat;
-  background-size: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  z-index: 1;
-=======
 .grid {
 	margin-bottom: 100px!important;
->>>>>>> master
 }
 
 .card {
