@@ -4,20 +4,19 @@
         <meta charset="utf-8">
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="shortcut icon" href="startup/flat-ui/images/favicon.ico">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css"/>
+        <link rel="stylesheet" href="static/css/style.css"/>
+        <script src="//code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+        <title>Lava Ludica</title>
 
-        <link rel="stylesheet" href="startup/flat-ui/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="startup/flat-ui/css/flat-ui.css">
-        <!-- Using only with Flat-UI (free)-->
-        <link rel="stylesheet" href="startup/common-files/css/icon-font.css">
-        <!-- end -->
-        <link rel="stylesheet" href="startup/common-files/css/animations.css">
-        <link rel="stylesheet" href="static/css/style.css">
+        <script>
+            $(function(){
+              $("#includedContent").load("items.html", function(){
+                  $('.popup').popup();
+                  $('.ui.modal').modal();
 
+<<<<<<< HEAD
         <title>Lava Ludica</title>
     </head>
 
@@ -124,5 +123,26 @@
             });
             </script>
         </div>
+=======
+                  $('.card').click(function(el){
+                      var id = $(this).attr('data-cardid');
+                      $('#'+id).modal('show');
+                  });
+              });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="ui container">
+            <section class="branding">
+                <img src="static/images/logo.png" alt="Lava Ludica">
+                <h1>A stool so cool</h1>
+            </section>
+            <div class="ui three column stackable grid" id="includedContent">
+
+            </div>
+        </div>
+>>>>>>> master
     </body>
 </html>

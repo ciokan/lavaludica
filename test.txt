@@ -1,0 +1,61 @@
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Picture
+Article number
+Product name
+Price (EUR)
+Description
+Product unique selling points / Special features / detailed informations
+deliverytime
+Material(s)
+Color(s)
+Product Details (e.g. assembly necessary, movable items, multi-part set)
+Cleaning/ washing instruction
+Country of origin
+Product approx. dimensions: Diameter (in cm)
+Product approx dimensions: Height (approx, in cm)
+Net weight (in grams)
+Number of separate packages product is delivered
+Package 1 Dimensions: Length (in mm)
+Package 1 Dimensions: Height (in mm)
+Package 1 Dimensions Width (in mm)
+Package 1 Gross weight incl  package (in grams)
+None
+None
+None
+None
+1
+None
+TEC01S
+LUNCA_small
+96.8
+Hand crafted and hand painted solid wood stool, small dimension.
+The stool is is painstakingly created,with passion and patience, with the same method it was used hundreds of years before. It is carved with a chisel by a master craftsman and then hand-polished. After that, it is handed to a plastic artist who paints it with ethnic motifs inspired by Romanian folklore. This results in a 100% handmade product, imperfect but beautiful precisely because of its uniqueness. Important: because it is not a machine-made mass product, the stool can have small imperfections and the color and dimensions may vary slightly from that in the picture.
+4 weeks
+willow or poplar wood
+multicolored
+assembled
