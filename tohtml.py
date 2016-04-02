@@ -73,7 +73,7 @@ for atype in e.findall('Record'):
 
 		<div class="actions">
 			<b>Price:</b> {price} euro &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<b>Est. deliverytime:</b> {deliverytime} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<b>Est. delivery time:</b> {deliverytime} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<b>Materials:</b> {materials} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<b>Weight (grams):</b> {weight}
 		</div>
