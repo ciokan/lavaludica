@@ -25,11 +25,10 @@ for atype in e.findall('Record'):
 <div class="column">
 	<div class="ui fluid link card" data-cardid="{id}">
 		<div class="image">
-			<b class="ui orange ribbon label">{article_no}</b>
+			<b class="ui orange ribbon label">{name}</b>
 			<img src="{image}">
 		</div>
 		<div class="content">
-			<div class="header">{name}</div>
 			<div class="meta">
 				<a>{category}</a>
 			</div>
@@ -73,8 +72,8 @@ for atype in e.findall('Record'):
 		</div>
 
 		<div class="actions">
-			<b>Price:</b> {price} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<b>Est. deliverytime:</b> {deliverytime} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<b>Price:</b> {price} euro &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<b>Est. delivery time:</b> {deliverytime} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<b>Materials:</b> {materials} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<b>Weight (grams):</b> {weight}
 		</div>
