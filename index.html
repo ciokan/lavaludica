@@ -12,7 +12,8 @@
 
         <script>
             $(function(){
-              $("#includedContent").load("items.html", function(){
+              /**
+		  $("#includedContent").load("items.html", function(){
                   $('.popup').popup();
                   $('.ui.modal').modal();
 
@@ -21,6 +22,7 @@
                       $('#'+id).modal('show');
                   });
               });
+		  **/
             });
         </script>
     </head>
@@ -30,6 +32,7 @@
             <section class="branding">
                 <img src="static/images/logo.png" alt="Lava Ludica">
                 <h1>A stool so cool</h1>
+                <h2>We're working on improving the website.<br>Please check back later...</h2>
             </section>
             <div class="ui three column stackable grid" id="includedContent">
 
